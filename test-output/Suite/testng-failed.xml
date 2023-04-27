@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="CrossBrowserTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="executeClass.HomePageTestClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyTheHomeTabIsClickableOrNot"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+          <include name="verifyTheHomePageLogoDisplayedOrNot"/>
+        </methods>
+      </class> <!-- executeClass.HomePageTestClass -->
+      <class name="executeClass.PawsomeCornerTestClass">
+        <methods>
+          <include name="verifyiscomingSoonTextVisibleOrNot"/>
+          <include name="afterMethod"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+          <include name="verifypawsomeCornerTabIsClickableOrNot"/>
+        </methods>
+      </class> <!-- executeClass.PawsomeCornerTestClass -->
+      <class name="executeClass.FeaturesPageTestClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+          <include name="verifyFeaturesTabIsClickableOrNot"/>
+          <include name="verifywhatMakesGoPetsDifferentTextVisibleOrNot"/>
+        </methods>
+      </class> <!-- executeClass.FeaturesPageTestClass -->
+      <class name="executeClass.ScreenshotsPageTestClass">
+        <methods>
+          <include name="verifyForwardArrowKeyClickableOrNot"/>
+          <include name="afterMethod"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+          <include name="verifyScreenShotsTabIsClickableOrNot"/>
+        </methods>
+      </class> <!-- executeClass.ScreenshotsPageTestClass -->
+      <class name="executeClass.TestimonialsPageTestClass">
+        <methods>
+          <include name="verifyScreenShotsTabIsClickableOrNot"/>
+          <include name="afterMethod"/>
+          <include name="verifyForwardArrowKeyClickableOrNot"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- executeClass.TestimonialsPageTestClass -->
+      <class name="executeClass.DownloadPageTestClass">
+        <methods>
+          <include name="verifyAndroidLogoDisplayedOrNot"/>
+          <include name="afterMethod"/>
+          <include name="verifyTheDownloadtabIsClickableOrNot"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- executeClass.DownloadPageTestClass -->
+    </classes>
+  </test> <!-- CrossBrowserTest(failed) -->
+  <test thread-count="5" name="EdgeBrowserTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="executeClass.HomePageTestClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+          <include name="verifyTheHomeTabIsClickableOrNot"/>
+          <include name="verifyTheHomePageLogoDisplayedOrNot"/>
+        </methods>
+      </class> <!-- executeClass.HomePageTestClass -->
+      <class name="executeClass.PawsomeCornerTestClass">
+        <methods>
+          <include name="verifyiscomingSoonTextVisibleOrNot"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+          <include name="verifypawsomeCornerTabIsClickableOrNot"/>
+        </methods>
+      </class> <!-- executeClass.PawsomeCornerTestClass -->
+      <class name="executeClass.FeaturesPageTestClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyFeaturesTabIsClickableOrNot"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+          <include name="verifywhatMakesGoPetsDifferentTextVisibleOrNot"/>
+        </methods>
+      </class> <!-- executeClass.FeaturesPageTestClass -->
+      <class name="executeClass.ScreenshotsPageTestClass">
+        <methods>
+          <include name="verifyForwardArrowKeyClickableOrNot"/>
+          <include name="afterMethod"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+          <include name="verifyScreenShotsTabIsClickableOrNot"/>
+        </methods>
+      </class> <!-- executeClass.ScreenshotsPageTestClass -->
+      <class name="executeClass.TestimonialsPageTestClass">
+        <methods>
+          <include name="verifyScreenShotsTabIsClickableOrNot"/>
+          <include name="afterMethod"/>
+          <include name="verifyForwardArrowKeyClickableOrNot"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- executeClass.TestimonialsPageTestClass -->
+      <class name="executeClass.DownloadPageTestClass">
+        <methods>
+          <include name="verifyAndroidLogoDisplayedOrNot"/>
+          <include name="afterMethod"/>
+          <include name="verifyTheDownloadtabIsClickableOrNot"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- executeClass.DownloadPageTestClass -->
+    </classes>
+  </test> <!-- EdgeBrowserTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

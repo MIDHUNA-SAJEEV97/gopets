@@ -81,6 +81,7 @@ public class BaseClass {
 			sh=new ScreenShotsClass();
 			sh.takeScreenShot(driver, itr.getName());
 		}
+		
 		driver.close();
 		driver.quit();
 	}

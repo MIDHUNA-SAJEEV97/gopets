@@ -1,9 +1,14 @@
 package utilities;
 
+import java.text.SimpleDateFormat;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import executeClass.Date;
+import executeClass.ParseException;
 
 public class GeneralUtilities {
 	
@@ -69,6 +74,7 @@ public class GeneralUtilities {
 		}
 		public void clearElement(WebElement element) {
 			element.clear();
+		
 		}
 	
 	}

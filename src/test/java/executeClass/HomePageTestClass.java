@@ -15,8 +15,8 @@ import org.testng.annotations.Test;
 		  
 		  lp=new HomePage(driver);
 		 
-		 String actual="https://test4dtg.tltechnologies.net/#home";
-		  String expected="https://test4dtg.tltechnologies.net/#home";
+		 String actual="https://test4dtg.tltechnologies.net/";
+		  String expected=driver.getCurrentUrl();
 		  Assert.assertEquals(actual,expected);  
 	  
 	}
